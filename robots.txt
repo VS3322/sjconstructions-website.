@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sjconstructions.ca/sitemap.xml
