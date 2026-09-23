@@ -82,3 +82,7 @@ img{max-width:100%;display:block}
 .services-submenu a{display:block;padding:10px 12px;border-radius:6px;white-space:nowrap}
 .services-submenu a:hover{background:#222}
 @media(max-width:980px){.services-dropdown{width:100%}.services-submenu{position:static;margin-top:10px;box-shadow:none}.nav-links[data-open="1"]{max-height:calc(100dvh - 78px);overflow-y:auto}}
+.associated-partners{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.associated-partners h3{margin:0 0 10px}
+.associated-partners p{margin:0;color:var(--muted)}
+.associated-partners strong{font-size:1.15rem;color:var(--ink)}
