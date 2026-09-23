@@ -116,10 +116,11 @@ img{max-width:100%;display:block}
 @media(max-width:640px){.blog-grid{grid-template-columns:1fr}.article{padding:68px 0}}
 .hero-photo{background:#111}
 .hero-photo .hero-backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
-.hero-photo:before{inset:0;width:auto;height:auto;border:0;border-radius:0;transform:none;opacity:1;background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.65) 55%,rgba(0,0,0,.25))}
+.hero-photo:before{inset:0;width:auto;height:auto;border:0;border-radius:0;transform:none;opacity:1;background:linear-gradient(90deg,rgba(0,0,0,.96) 0%,rgba(0,0,0,.91) 46%,rgba(0,0,0,.66) 68%,rgba(0,0,0,.38) 100%)}
 .hero-photo:after{display:none}
 .hero-photo .hero-inner{max-width:100%;padding-right:22%}
+.hero-photo .hero-inner{z-index:2}.hero-photo h1,.hero-photo p,.hero-photo .eyebrow{position:relative;text-shadow:0 2px 16px rgba(0,0,0,.7)}
 .service-photo{margin-top:38px;margin-bottom:0}
 .service-photo img{width:100%;height:auto;max-height:560px;object-fit:cover;border-radius:18px}
 @media(max-width:980px){.hero-photo .hero-inner{padding-right:0}}
-@media(max-width:640px){.hero-photo .hero-backdrop{object-position:65% center}.hero-photo:before{background:rgba(0,0,0,.75)}.service-photo{margin-top:24px}.service-photo img{border-radius:12px}}
+@media(max-width:640px){.hero-photo .hero-backdrop{object-position:65% center}.hero-photo:before{background:rgba(0,0,0,.86)}.service-photo{margin-top:24px}.service-photo img{border-radius:12px}}
