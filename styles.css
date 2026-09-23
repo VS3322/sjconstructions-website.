@@ -95,3 +95,15 @@ img{max-width:100%;display:block}
 .drawing-card p{margin:0;color:var(--muted)}
 .drawing-card a:focus-visible{outline:3px solid #8a7100;outline-offset:-3px}
 @media(max-width:640px){.drawing-grid{grid-template-columns:1fr}}
+.housing-process{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;list-style:none;padding:0;counter-reset:housing-step}
+.housing-process li{counter-increment:housing-step;padding:26px;background:white;border-top:4px solid var(--yellow);border-radius:0 0 16px 16px}
+.housing-process li:before{content:"0" counter(housing-step);font-weight:900;color:#8a7100}
+.housing-process h3{margin:8px 0}.housing-process p{margin:0;color:var(--muted)}
+.housing-faq{display:grid;gap:12px}
+.housing-faq details{background:white;border:1px solid var(--line);border-radius:12px;padding:20px 24px}
+.housing-faq summary{font-weight:800;cursor:pointer}
+.housing-faq p{color:var(--muted);margin:16px 0 0;max-width:900px}
+.housing-faq summary:focus-visible{outline:2px solid #8a7100;outline-offset:5px}
+#feasibility-call{scroll-margin-top:90px}
+@media(max-width:980px){.housing-process{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.housing-process{grid-template-columns:1fr}}
